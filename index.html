@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>projeto Final 1° Bimestre</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=MedievalSharp&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <header class="py-3 text-center">
+  <h1 class="display-4 fw-bold rpg-title">Arquétipos ao Nascer</h1>
+</header>
+
+       <nav class="navbar navbar-expand-lg navbar-dark custom-rpg-nav sticky-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">📜 Arquétipos</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+        <li class="nav-item"><a class="nav-link" href="#galeria">Galeria</a></li>
+        <li class="nav-item"><a class="nav-link" href="#lista">Lista de Edições</a></li>
+        <li class="nav-item"><a class="nav-link" href="#tabela">Tabela de Atributos</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+      </ul>
+      <form class="d-flex rpg-search" role="search">
+        <input class="form-control me-2" type="search" placeholder="Buscar tesouros..." aria-label="Search">
+        <button class="btn btn-rpg" type="submit">Buscar</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+    </header>
+    <main>
+    <section id="sobre" class="py-5 text-center">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-lg-8">
+        
+        <h2 class="mb-4">Bem-vindo à Arquetipos ao Nascer</h2>
+        
+        <p class="lead">Puxe uma cadeira, descanse seu escudo e deixe o peso das moedas de ouro de lado por um momento. Os Arquetipos ao Nascer é o ponto de encontro entre os mundos, o refúgio onde o mestre e o jogador se tornam lendas.</p>
+        
+        <p>Seja você um veterano que já encarou dragões ancestrais ou um bardo iniciante afinando seu primeiro alaúde, este é o seu espaço. Aqui, exploramos os confins do multiverso através do RPG de Mesa:</p>
+        
+        <h3 class="mt-5 mb-4">O que virá futuramente no site:</h3>
+        
+        <ul class="lista-aventura text-start d-inline-block">
+            <li><strong>Guias de Sistemas:</strong> Do clássico <em>D&D</em> ao horror cósmico de <em>Call of Cthulhu</em>.</li>
+            <li><strong>Dicas de Narração:</strong> Como dar vida a NPCs memoráveis e construir cenários épicos.</li>
+            <li><strong>Comunidade:</strong> Um mural para encontrar seu próximo grupo de aventureiros e compartilhar crônicas.</li>
+        </ul>
+
+        <p class="chamada-final mt-5">O destino está nos dados, mas a história... a história pertence a você. <br><strong>Role a iniciativa!</strong></p>
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+   <section id="galeria" class="container py-5">
+    <h2 class="text-center mb-5">Crônicas Visuais</h2>
+    
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        
+        <div class="col">
+            <figure class="item-galeria h-100 border p-2 shadow-sm rounded">
+                <img src="IMG/Dungeons-and-Dragons-Party.avif" alt="Grupo de Aventureiros" class="img-fluid rounded">
+                <figcaption class="mt-2 text-center fw-bold">O Grupo Original</figcaption>
+            </figure>
+        </div>
+
+        <div class="col">
+            <figure class="item-galeria h-100 border p-2 shadow-sm rounded">
+                <img src="IMG/world-map-for-current-dnd-campaign-v0-x0ywenldqbld1.webp" alt="Mapa da Região" class="img-fluid rounded">
+                <figcaption class="mt-2 text-center fw-bold">Terras de Valéria</figcaption>
+            </figure>
+        </div>
+
+        <div class="col">
+            <figure class="item-galeria h-100 border p-2 shadow-sm rounded">
+                <img src="IMG/Spirit_Dragon_-_Olivier_Bernard.webp" alt="Dragão" class="img-fluid rounded">
+                <figcaption class="mt-2 text-center fw-bold">O Despertar do Wyrm</figcaption>
+            </figure>
+        </div>
+
+        <div class="col">
+            <figure class="item-galeria h-100 border p-2 shadow-sm rounded">
+                <div class="ratio ratio-16x9 mb-2">
+                    <video controls poster="IMG/capa-video.jpg">
+                        <source src="Video/O_que__DD_-_Dungeons__Dragons.mp4" type="video/mp4">
+                        <track kind="subtitles" srclang="pt-br" src="Video/O_que__DD_-_Dungeons__Dragons.vtt" label="legendas pt-br">
+                    </video>
+                </div>
+                <figcaption class="text-center fw-bold">O Que É Dungeons And Dragons</figcaption>
+            </figure>
+        </div>
+              
+    </div>
+</section>
+<section id="lista" class="py-5 secao-cronica">>
+    <div class="container">
+        <h2 class="text-center mb-5 titulo-cronica">Principais Edições e Marcos (1974-2024)</h2>
+        
+        <div class="row justify-content-center">
+            <div class="col-12 col-lg-9">
+                <div class="list-group shadow-sm">
+                    
+                    <div class="list-group-item list-group-item-action d-flex gap-3 py-3">
+                        <span class="ano badge rounded-pill bg-dark align-self-center py-2 px-3">1974</span>
+                        <div class="d-flex gap-2 w-100 justify-content-between">
+                            <div>
+                                <h6 class="mb-0 fw-bold">D&D Original</h6>
+                                <p class="mb-0 opacity-75">O início de tudo, criado por Gary Gygax e Dave Arneson.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="list-group-item list-group-item-action d-flex gap-3 py-3">
+                        <span class="ano badge rounded-pill bg-dark align-self-center py-2 px-3">1977</span>
+                        <div class="d-flex gap-2 w-100 justify-content-between">
+                            <div>
+                                <h6 class="mb-0 fw-bold">Classic D&D (B/X, BECMI)</h6>
+                                <p class="mb-0 opacity-75">Foco em regras simples com as famosas caixas (Básica até Immortal).</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="list-group-item list-group-item-action d-flex gap-3 py-3">
+                        <span class="ano badge rounded-pill bg-dark align-self-center py-2 px-3">1977-95</span>
+                        <div class="d-flex gap-2 w-100 justify-content-between">
+                            <div>
+                                <h6 class="mb-0 fw-bold">Advanced D&D (AD&D 1ª & 2ª Ed.)</h6>
+                                <p class="mb-0 opacity-75">Versão complexa que introduziu o trio de livros (PHB, MM, DMG).</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="list-group-item list-group-item-action d-flex gap-3 py-3">
+                        <span class="ano badge rounded-pill bg-dark align-self-center py-2 px-3">2000</span>
+                        <div class="d-flex gap-2 w-100 justify-content-between">
+                            <div>
+                                <h6 class="mb-0 fw-bold">D&D 3ª Edição / 3.5</h6>
+                                <p class="mb-0 opacity-75">A revolução do sistema d20 e o nascimento da Open Game License.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="list-group-item list-group-item-action d-flex gap-3 py-3 bg-rpg-highlight">
+                        <span class="ano badge rounded-pill bg-warning text-dark align-self-center py-2 px-3">2024</span>
+                        <div class="d-flex gap-2 w-100 justify-content-between">
+                            <div>
+                                <h6 class="mb-0 fw-bold">D&D 2024 (Revisada)</h6>
+                                <p class="mb-0 opacity-75">Nova revisão dos livros principais celebrando os 50 anos do RPG.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="tabela" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-5">Matriz de Atributos - Classes</h2>
+        
+        <div class="shadow-lg rounded overflow-hidden">
+            <table class="table table-rpg-stack table-hover mb-0">
+                <thead class="table-dark d-none d-md-table-header-group">
+                    <tr>
+                        <th>Classe</th>
+                        <th>Atributo Principal</th>
+                        <th>Dificuldade</th>
+                        <th>Papel no Grupo</th>
+                    </tr>
+                </thead>
+                <tbody class="table-group-divider">
+                    <tr>
+                        <td data-label="Classe"><strong>Bárbaro</strong></td>
+                        <td data-label="Atributo">Constituição/Força</td>
+                        <td data-label="Dificuldade"><span class="badge bg-success">Baixa</span></td>
+                        <td data-label="Papel">Tanque / Dano Físico</td>
+                    </tr>
+                    <tr>
+                        <td data-label="Classe"><strong>Bardo</strong></td>
+                        <td data-label="Atributo">Carisma</td>
+                        <td data-label="Dificuldade"><span class="badge bg-danger">Alta</span></td>
+                        <td data-label="Papel">Utilitário / Buffs</td>
+                    </tr>
+                    <tr>
+                        <td data-label="Classe"><strong>Bruxo</strong></td>
+                        <td data-label="Atributo">Carisma</td>
+                        <td data-label="Dificuldade"><span class="badge bg-warning text-dark">Média</span></td>
+                        <td data-label="Papel">Dano Mágico / Utilidade</td>
+                    </tr>
+                    <tr>
+                        <td data-label="Classe"><strong>Clérigo</strong></td>
+                        <td data-label="Atributo">Sabedoria</td>
+                        <td data-label="Dificuldade"><span class="badge bg-warning text-dark">Média</span></td>
+                        <td data-label="Papel">Suporte / Cura</td>
+                    </tr>
+                    <tr>
+                        <td data-label="Classe"><strong>Druida</strong></td>
+                        <td data-label="Atributo">Sabedoria</td>
+                        <td data-label="Dificuldade"><span class="badge bg-danger">Alta</span></td>
+                        <td data-label="Papel">Versatilidade / Natureza</td>
+                    </tr>
+                    <tr>
+                        <td data-label="Classe"><strong>Feiticeiro</strong></td>
+                        <td data-label="Atributo">Carisma</td>
+                        <td data-label="Dificuldade"><span class="badge bg-danger">Alta</span></td>
+                        <td data-label="Papel">Dano Mágico Explosivo</td>
+                    </tr>
+                    <tr>
+                        <td data-label="Classe"><strong>Guerreiro</strong></td>
+                        <td data-label="Atributo">Força/Destreza</td>
+                        <td data-label="Dificuldade"><span class="badge bg-success">Baixa</span></td>
+                        <td data-label="Papel">Tanque / Dano Físico</td>
+                    </tr>
+                    <tr>
+                        <td data-label="Classe"><strong>Ladino</strong></td>
+                        <td data-label="Atributo">Destreza</td>
+                        <td data-label="Dificuldade"><span class="badge bg-warning text-dark">Média</span></td>
+                        <td data-label="Papel">Furtividade / Críticos</td>
+                    </tr>
+                    <tr>
+                        <td data-label="Classe"><strong>Mago</strong></td>
+                        <td data-label="Atributo">Inteligência</td>
+                        <td data-label="Dificuldade"><span class="badge bg-danger">Alta</span></td>
+                        <td data-label="Papel">Controle / Dano Mágico</td>
+                    </tr>
+                    <tr>
+                        <td data-label="Classe"><strong>Monge</strong></td>
+                        <td data-label="Atributo">Destreza/Sabedoria</td>
+                        <td data-label="Dificuldade"><span class="badge bg-danger">Alta</span></td>
+                        <td data-label="Papel">Combate Ágil / Controle</td>
+                    </tr>
+                    <tr>
+                        <td data-label="Classe"><strong>Paladino</strong></td>
+                        <td data-label="Atributo">Força/Carisma</td>
+                        <td data-label="Dificuldade"><span class="badge bg-warning text-dark">Média</span></td>
+                        <td data-label="Papel">Defesa / Suporte Divino</td>
+                    </tr>
+                    <tr>
+                        <td data-label="Classe"><strong>Patrulheiro</strong></td>
+                        <td data-label="Atributo">Destreza/Sabedoria</td>
+                        <td data-label="Dificuldade"><span class="badge bg-warning text-dark">Média</span></td>
+                        <td data-label="Papel">Dano à Distância / Sobrevivência</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+
+<section id="contato" class="secao-contato py-5">
+    <div class="container">
+        <div class="pergaminho-alistamento p-4 p-md-5 shadow-lg mx-auto" style="max-width: 900px;">
+            
+            <h2 class="text-center mb-4">Aliste-se na Guilda</h2>
+            <p class="text-center mb-5">Preencha os dados abaixo para enviar sua coruja mensageira ao Mestre.</p>
+            
+            <form action="#">
+                <div class="row">
+                    <div class="col-12 col-md-6 campo mb-3">
+                        <label for="nome" class="form-label">Nome do Aventureiro:</label>
+                        <input type="text" id="nome" name="nome" class="form-control" placeholder="Ex: Arwen de Valéria" required>
+                    </div>
+
+                    <div class="col-12 col-md-6 campo mb-3">
+                        <label for="email" class="form-label">E-mail para Contato:</label>
+                        <input type="email" id="email" name="email" class="form-control" placeholder="seu@pergaminho.com" required>
+                    </div>
+
+                    <div class="col-12 campo mb-4">
+                        <label for="mensagem" class="form-label">Sua Crônica ou Dúvida:</label>
+                        <textarea id="mensagem" name="mensagem" class="form-control" rows="5" placeholder="Escreva sua mensagem aqui..." required></textarea>
+                    </div>
+
+                    <div class="col-12 text-center">
+                        <button type="submit" class="botao-enviar btn-lg px-5">Selar Pergaminho</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2026 Arquétipos ao Nascer - Todos os direitos reservados aos mestres.</p>
+    <p>Contato: flericlissouza342@gmail.com</p>
+</footer>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
